@@ -1,0 +1,24 @@
+{
+  "name": "multi-filter-array",
+  "version": "1.0.0",
+  "description": "A simple array Filter to run multiple conditions against an item",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  },
+  "author": "Vignesh Murugan",
+  "license": "ISC"
+}
