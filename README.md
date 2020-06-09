@@ -2,9 +2,12 @@
 Filter an Array using multiple predicates
 
 
-it takes 2 mandatory arguments and 1 optional argument. First parameter is the input array.
-Second argument is array of predicates which needs to validated against the array.
-Third argument is optional boolean which indicates whether an item should pass all predicates or atleast one predicate. true validates that all predicates are satisfied and false validates atleast one predicate is satisfied
+It takes 2 mandatory arguments and 2 optional argument.
+
+- First parameter is the input array.
+- Second argument is array of predicates which needs to validated against the array.
+- Third argument is optional boolean which indicates whether an item should pass all predicates or atleast one predicate. true validates that all predicates are satisfied and false validates atleast one predicate is satisfied
+- Fourth Argument is optional comparator function to sort the resultant array
 
 ```javascript
 import filterArray from 'multi-filter-array'
