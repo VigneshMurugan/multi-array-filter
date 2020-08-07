@@ -1,6 +1,6 @@
 {
   "name": "multi-filter-array",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A simple array Filter to run multiple conditions against an item",
   "main": "index.js",
   "scripts": {
